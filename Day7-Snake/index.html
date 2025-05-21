@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+        />
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous"
+        />
+    </head>
+    <title>Snake Game</title>
+    <body class="bg-light">
+        
+            <div class="bigContainer row mt-5 container-s">
+                <div class="container mr-5">
+                    <h2>FEED THE SNAKE</h2>
+                    <div id="gameContainer">
+                        <canvas id="gameCanvas" width="800" height="500" class="border border-dark bg-dark">
+
+                        </canvas>
+                        <div class="mt-2">
+                            <button id="startButton" class="btn btn-primary"> Start </button>
+                            <button id="stopButton" class="btn btn-danger"> Stop </button>
+                            <button id="pauseButton" class="btn btn-info"> Pause </button>
+                        </div>
+                        <div id="score" class="text-center mt-1 lead ml-5"> Score: 0 </div>
+                    </div>
+                </div>
+            </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
